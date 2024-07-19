@@ -19,22 +19,29 @@ The dataset used for this analysis is `AirBnB-nyc.csv`, which contains informati
 - `reviews_per_month`
 - `calculated_host_listings_count`
 - `availability_365`
-Analysis
+
+#Analysis
 The analysis is performed using various Python libraries including pandas, numpy, matplotlib, and seaborn. Key steps in the analysis include:
-Data Cleaning: Handling missing values and ensuring data integrity.
-Descriptive Statistics: Calculating mean, median, min, and max prices for each neighborhood.
-Visualization: Creating scatter plots, box plots, and pie charts to visualize the data.
-Correlation Analysis: Exploring the relationship between price and number of reviews.
+-Data Cleaning: Handling missing values and ensuring data integrity.
+-Descriptive Statistics: Calculating mean, median, min, and max prices for each neighborhood.
+-Visualization: Creating scatter plots, box plots, and pie charts to visualize the data.
+-Correlation Analysis: Exploring the relationship between price and number of reviews.
 Results
-Missing Values
+
+
+#Missing Values
 Missing values were identified in the name, host_name, last_review, and reviews_per_month columns.
 Price Analysis
 The average price by neighborhood was calculated, and neighborhoods with the highest average prices were identified. Outliers in pricing were also detected.
-Room Type Distribution
+
+
+#Room Type Distribution
 The distribution of room types was visualized using a pie chart:
 Entire home/apt: 51.97%
 Private room: 45.66%
 Shared room: 2.37%
-Host Activity
+
+
+#Host Activity
 The top 10 hosts by the number of listings were identified, and the average number of listings per host was calculated.
 
